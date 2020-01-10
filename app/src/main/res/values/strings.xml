@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Tymer</string>
+    <string name="sunrise">SunRise</string>
+    <string name="sunset">SunSet</string>
+    <string name="midnight">Midnight</string>
+    <string name="todo">TODO</string>
+    <string name="settings_activity_label">Settings</string>
+
+
+    <!-- - - - - - - - - - - - - - - -
+          - Used by Preferences  -
+          - - - - - - - - - - - - - - - -->
+    <!--key name for storing time format in sharedpreference-->
+    <string name="pref_time_format_key" translatable="false">time_format</string>
+    <!--label for time format switch-->
+    <string name="pref_time_format_label">Time Format</string>
+    <!--12 hour for switch preference-->
+    <string name="pref_time_format_12_hour">12 Hours</string>
+    <!--24 hours for switch preference-->
+    <string name="pref_time_format_24_hour">24 Hours</string>
+
+
+    <!--Text Size-->
+    <string name="text_size">20sp</string>
+
+    <!--server_base_url-->
+    <string name="server_base_url">https://api.sunrise-sunset.org/</string>
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:key="@string/pref_time_format_key"
+        android:title="@string/pref_time_format_label"
+        android:summaryOff="@string/pref_time_format_24_hour"
+        android:summaryOn="@string/pref_time_format_12_hour"
+        android:icon="@android:drawable/ic_menu_rotate"
+        android:drawableTint="@android:color/black"
+        android:backgroundTint="@android:color/black"/>
+
+</PreferenceScreen>
